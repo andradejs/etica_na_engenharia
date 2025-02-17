@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ética na Engenharia de Software</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+            background: #0056b3;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .navbar a:hover {
+            background: #004494;
+        }
+        .apresentacao {
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+        }
+        .conteudos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 30px;
+            flex-wrap: wrap;
+        }
+        .principios-container {
+            display: flex;
+            gap: 20px;
+        }
+        .principio {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            text-decoration: none;
+            color: #333;
+        }
+        .principio img {
+            width: 100px;
+            height: auto;
+        }
+        .principio:hover {
+            transform: translateY(-5px);
+        }
+        .detalhes {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .detalhes img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0056b3;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Ética na Engenharia de Software
+    </header>
+    <nav class="navbar">
+        <a href="#inicio">Início</a>
+        <a href="#conteudo">Conteúdo</a>
+        <a href="#sobre">Sobre</a>
+    </nav>
+
+    <main>
+        <section class="apresentacao" id="inicio">
+            <h1>O Código de Ética na Engenharia de Software</h1>
+            <p>Os engenheiros de software devem seguir princípios éticos fundamentais para garantir qualidade, segurança e responsabilidade social.</p>
+        </section>
+
+        <section class="conteudos" id="conteudo">
+            <div class="principios-container">
+                <a href="#responsabilidade" class="principio">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2726/2726638.png" alt="Responsabilidade">
+                    <h3>Responsabilidade</h3>
+                </a>
+                <a href="#impactos" class="principio">
+                    <img src="https://cdn-icons-png.flaticon.com/512/10280/10280479.png" alt="Impactos Sociais">
+                    <h3>Impactos Sociais</h3>
+                </a>
+                <a href="#privacidade" class="principio">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6672/6672221.png" alt="Privacidade">
+                    <h3>Privacidade</h3>
+                </a>
+            </div>
+        </section>
+
+        <section class="detalhes" id="responsabilidade">
+            <h2>Responsabilidade Profissional e Ética</h2>
+            <p>Os engenheiros de software devem agir com integridade e seguir padrões estabelecidos por organizações como IEEE e ACM.</p>
+            <img src="https://imgs.jusbr.com/publications/images/51a06851c6e9b2edee15fdcf39f62d0d" alt="Imagem sobre responsabilidade">
+        </section>
+
+        <section class="detalhes" id="impactos">
+            <h2>Impactos Sociais da Tecnologia</h2>
+            <p>O desenvolvimento de software pode gerar tanto benefícios como inclusão digital quanto desafios como desigualdade e privacidade.</p>
+            <img src="https://weni.ai/wp-content/uploads/2021/06/tecnologia-social_Easy-Resize.com_-768x512.jpg.webp" alt="Imagem sobre impactos sociais">
+        </section>
+
+        <section class="detalhes" id="privacidade">
+            <h2>Privacidade, Segurança e Proteção de Dados</h2>
+            <p>É essencial garantir que dados sejam protegidos conforme leis como a LGPD, prevenindo abusos e violações.</p>
+            <img src="https://blog.oriontec.com.br/wp-content/uploads/2022/10/blog_seguranca.jpg" alt="Imagem sobre privacidade">
+        </section>
+    </main>
+
+    <footer id="sobre">
+        <p>&copy; 2025 - Ética na Engenharia de Software</p>
+    </footer>
+
+</body>
+</html>
