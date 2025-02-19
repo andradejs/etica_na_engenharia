@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path')
 const app = express();
 
-const { createServer } = require('@vercel/node');
+// const { createServer } = require('@vercel/node');
 
 app.use(express.static('public'));
 
