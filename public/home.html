@@ -27,7 +27,6 @@
             gap: 20px;
             padding: 10px;
             background: #0056b3;
-            flex-wrap: wrap;
         }
         .navbar a {
             color: white;
@@ -55,8 +54,6 @@
         }
         .principios-container {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
             gap: 20px;
         }
         .principio {
@@ -78,7 +75,7 @@
             transform: translateY(-5px);
         }
         .detalhes {
-            max-width: 90%;
+            max-width: 800px;
             margin: 30px auto;
             padding: 20px;
             background: white;
@@ -98,23 +95,6 @@
             background: #0056b3;
             color: white;
             margin-top: 30px;
-        }
-        @media (max-width: 768px) {
-            .navbar {
-                flex-direction: column;
-                align-items: center;
-                gap: 10px;
-            }
-            .principios-container {
-                flex-direction: column;
-                align-items: center;
-            }
-            .principio {
-                width: 90%;
-            }
-            .apresentacao {
-                padding: 30px;
-            }
         }
     </style>
 </head>
@@ -156,6 +136,18 @@
             <h2>Responsabilidade Profissional e Ética</h2>
             <p>Os engenheiros de software devem agir com integridade e seguir padrões estabelecidos por organizações como IEEE e ACM.</p>
             <img src="https://imgs.jusbr.com/publications/images/51a06851c6e9b2edee15fdcf39f62d0d" alt="Imagem sobre responsabilidade">
+        </section>
+
+        <section class="detalhes" id="impactos">
+            <h2>Impactos Sociais da Tecnologia</h2>
+            <p>O desenvolvimento de software pode gerar tanto benefícios como inclusão digital quanto desafios como desigualdade e privacidade.</p>
+            <img src="https://weni.ai/wp-content/uploads/2021/06/tecnologia-social_Easy-Resize.com_-768x512.jpg.webp" alt="Imagem sobre impactos sociais">
+        </section>
+
+        <section class="detalhes" id="privacidade">
+            <h2>Privacidade, Segurança e Proteção de Dados</h2>
+            <p>É essencial garantir que dados sejam protegidos conforme leis como a LGPD, prevenindo abusos e violações.</p>
+            <img src="https://blog.oriontec.com.br/wp-content/uploads/2022/10/blog_seguranca.jpg" alt="Imagem sobre privacidade">
         </section>
     </main>
 
